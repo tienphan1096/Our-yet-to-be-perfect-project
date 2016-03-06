@@ -127,7 +127,10 @@ html{
 	margin-bottom:5px;
 }
 
-
+a.threadfooter
+{
+    text-decoration: none;
+}
 .author{
 	margin-left: 30px;
 	color: grey;
