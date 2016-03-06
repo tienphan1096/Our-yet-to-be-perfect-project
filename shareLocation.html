@@ -53,6 +53,11 @@
         marker.addListener('click', function() {
           infoWindow.open(map, marker);
         });
+
+        var ctaLayer = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/kmlhosthackathon/kmz/doc.kml',
+          map: map
+        });
       }
     </script>
   </head>
