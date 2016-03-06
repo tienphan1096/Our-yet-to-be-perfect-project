@@ -1,0 +1,189 @@
+
+body{
+	width:960px;
+	margin: 0 auto;
+	font-family: roboto;
+	background-color:#f6f6f6;
+	height:100%;
+}
+
+header{
+	width:960px;
+	position:fixed;
+	top:0;
+}
+
+a{
+	text-decoration: none;
+	color: #f6f6f6;
+}
+
+#logo img{
+	height:80px;
+	margin:10px;
+}
+
+#logo{
+	background-color: #f6f6f6;
+	text-align: center;
+}
+
+
+#menubar ul{
+	overflow: hidden;
+	background-color: #db4538;
+	padding:10px 0px;
+	margin:0;
+}
+
+#menubar li{
+	display: inline;
+	border-left: 2px solid #f6f6f6;
+	text-align: left;
+	padding:10px 20px;
+	background-color: #db4538;
+	font-size: 18px;
+	text-shadow: -1px -1px 1px grey;
+
+
+}
+
+#menubar li:first-child{
+	border:none;
+}
+
+#login{
+	position: fixed;
+	top:0;
+	right:170px;
+	background-color: #db4538;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+#login ul{
+	margin:0;
+	padding:0;
+
+}
+
+#login li{
+	display: inline-block;
+	text-align: center;
+	padding:5px;
+	color:#f6f6f6;
+}
+
+#login li:first-child{
+	border-right: 2px solid #f6f6f6;
+}
+
+html{
+	background-color: black;
+	height: 100%
+}
+
+#body{
+	padding-top: 150px;
+	background-color: #f6f6f6;
+	padding-bottom:40px;
+}
+
+#introduction{
+	margin:0 40px;
+}
+
+#introduction h2{
+		color:black;
+}
+
+#introduction p{
+	color: grey;
+	padding-bottom: 20px;
+	border-bottom: 2px solid grey;
+}
+
+/*Resquests page sections*/
+.thread{
+	width:900px;
+	border:2px solid grey;
+	margin: 30px auto 0 auto;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.threadhead{
+	border-bottom: 1px solid grey;
+	margin:10px 10px 0px 10px;
+	padding-bottom:20px;
+}
+
+
+.threadtitle{
+	font-size: 30px;
+	font-weight: bold;
+	padding-left:20px;
+	color: black;
+	margin-bottom:5px;
+}
+
+
+.author{
+	margin-left: 30px;
+	color: grey;
+}
+
+.author img{
+	width:15px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.threadbody{
+	margin:20px 40px 10px 40px;
+	color: grey;
+}
+
+.buttons{
+	margin-left:40px;
+	margin-bottom: 10px;
+}
+
+.buttons img{
+	width:20px;
+	padding-right:30px;
+	padding-top: 0px;
+}
+
+#popupcontent{
+	width: 610px;
+	margin:0 40px;
+}
+
+#popupcontent textarea{
+	margin: 0 0 20px 0;
+	border:1px solid grey;
+	border-radius: 10px; 
+	padding:5px;
+}
+
+.previouscomment{
+	border: 1px solid grey;
+	color:grey;
+	margin:30px 0;
+	padding: 10px 20px;
+	border-radius: 10px;
+	width: 610px;
+}
+
+.commentauthor{
+	text-align: right;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+.commentauthor img{
+	width:15px;
+}
+
+/*End of Resquests page sections*/
